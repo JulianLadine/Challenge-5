@@ -10,6 +10,9 @@
 li {
   list-style: none;
 }
+main {
+  display: flex;
+}
 
 header {
   display: flex;
@@ -188,3 +191,168 @@ header {
   }
 }
 // Fin left part//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.right_part {
+  width: 83%;
+
+.first_section_central {
+  width: 100%;
+  height: 22em;
+  background-color: black;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    li {
+      width: 25%;
+      height: 20em;
+
+      article {
+
+        flex-direction: column;
+        // display: flex;
+        height: 100%;
+        img {
+          height: auto;
+          margin-bottom: 10px
+      }
+        h4 {
+          padding-top: 20px;
+          color: white;
+          font-size: 15px;
+
+      }
+        a {
+          color: white;
+      }
+    }
+    }
+
+  }
+}
+
+.second_section_central {
+  display: flex;
+  width: 100%;
+  .left {
+    padding-left: 150px;
+    padding-right: 108px;
+    width: 65%;
+    h5 {
+      margin-top: 75px;
+      margin-bottom: 250px;
+      font-size: 30px;
+      font-weight: normal;
+
+    }
+    p {
+      margin-bottom: 42px;
+      font-size: 14px;
+      color: #444;
+      a {
+        color: green;
+        text-decoration: none;
+      }
+    }
+  }
+  .right {
+    width: 35%;
+
+    padding-right: 10px;
+    img {
+      width: 100%;
+    }
+    h4 {
+      font-size: 20px;
+      padding-top: 20px;
+      margin-top: 75px;
+      margin-bottom: 50px;
+      border-top: 6px solid black;
+
+    }
+    ul {
+      margin-bottom: 20px;
+      .li_millieu{
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      li {
+
+
+
+
+        a{
+          display: block;
+          color: green;
+          font-size: 14px;
+          text-decoration: none;
+          margin-bottom: 4px;
+          :hover {
+            text-decoration: underline;
+          }
+        }
+
+        p{
+          margin-bottom: 4px;
+          font-style: italic;
+          font-size: 14px;
+          color: #969696;
+
+      }
+    }
+  }
+
+
+    .titre_logo {
+        border-top: 4px solid black;
+        padding-bottom: 20px;
+      h5 {
+
+        display: inline;
+    }
+    i {
+      color: white;
+      background-color: black;
+      padding: 10px 10px;
+      margin-right: 10px;
+    }
+
+    }
+    .barre {
+      padding-top: 12px;
+      font-size: 13px;
+      color: #969696;
+      font-style: italic;
+      padding-bottom: 12px;
+      margin-bottom: 50px;
+      border-bottom: 1px solid #eee;
+      a{
+        text-decoration: none;
+        color: green;
+        :hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+}
+
+}
+
+
+// Fin du main//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+footer {
+  p {
+    font-size: 14px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom : 20px;
+    color: grey;
+    background-color: black;
+  }
+}
